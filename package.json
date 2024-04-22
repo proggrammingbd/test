@@ -2,7 +2,7 @@
   "name": "test",
   "version": "1.0.0",
   "description": "this is a test bot",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^6.1.0",
-    "monent": "^0.0.2-security"
+    "monent": "^0.0.2-security",
+    "simple-git": "^3.24.0"
   }
 }
