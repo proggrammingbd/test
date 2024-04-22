@@ -2,10 +2,14 @@ const jsonfile=require('jsonfile');
 const moment=require('moment');
 const simpleGit=require('simple-git');
 const FILE_PATH ='./data.json';
+const random =require('random');
+
 
 
 const DATE= moment().subtract(1,'y').add(1,'d').add(x,'w').add(y,'d').format();
-const makeCommit=(x,y)=>{
+const makeCommit=(n)=>{
+    const x=random.int(0,54);
+    const y=random.int(0,6)
     const date={
         date:DATE
     }
@@ -15,3 +19,4 @@ const makeCommit=(x,y)=>{
 }
 
 
+makeCommit(100);
