@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "this is a test bot",
+  "main": "test.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "programming bd",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "monent": "^0.0.2-security"
+  }
+}
